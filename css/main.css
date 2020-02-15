@@ -1,0 +1,642 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.header_topline {
+	padding: 0;
+	background-color: #BA99D3;
+}
+
+.header_topline h1 {
+	font-size: 37px;
+	font-family: "SawRegular";
+	color: #696969;
+}
+
+.second_line {
+	background-color: #E6E6FA;
+}
+
+.order_info a {
+	color: #1E90FF;
+	text-decoration: underline;
+	font-family: "ConsolaMonoBook";
+	font-size: 20px;
+	padding: 20px 20px;
+	display: block;
+}
+
+  a:hover {
+	text-decoration: none;
+}
+
+.order_info  ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+}
+
+.order_info  ul li {
+	display: inline-block;
+}
+
+.registr a {
+	color: #1E90FF;
+	text-decoration: underline;
+	font-family: "ConsolaMonoBook";
+	font-size: 20px;
+}
+
+.registr {
+	padding: 21px;
+	margin: 0;
+	float: right;
+	display: inline-block;
+}
+
+.registr a:hover {	
+	text-decoration: none;
+}
+
+.registr button{
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+}
+
+.third_line {
+	background-color: #BA99D3;
+}
+
+.third_line  a {
+	font-size: 35px;
+	font-family: "SawRegular";
+	color: #696969;
+	text-decoration: underline;
+}
+
+.third_line a:hover {	
+	text-decoration: none;
+}
+
+.sider_container img{
+    width: 850px;
+    height: 561px;
+}
+
+.sider_container {
+	position: relative;
+}
+
+.next_button, 
+.prev_button {
+	position: absolute;
+	color: #fff;
+	cursor: pointer;
+	top: 40%;
+	font-size: 56px;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0 25px;
+}
+
+.next_button {
+	right: 20px;
+}
+
+.prev_button {
+	left: 20px;
+}
+
+.middle_footer {
+	background-color: #BA99D3;
+}
+
+.on_me a{
+	color: #696969;
+	text-decoration: underline;
+	font-family: "ConsolaMonoBook";
+	font-size: 20px;
+}
+
+.on_me a:hover {
+	text-decoration: none;
+}
+
+.on_me {
+	padding: 33px;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+}
+
+.soc_buttons {
+	padding: 21px;
+	float: right;
+}
+.soc_buttons > a {
+	font-size: 36px;
+	margin-left: 8px;
+	padding: 25px ;
+}
+
+.fa-odnoklassniki {
+	color: #FFA500;
+}
+
+.fa-vk {
+	color: #1E90FF;
+}
+
+.fa-facebook {
+	color: #1E90FF;;
+}
+
+.full_image img {
+	width: 1663px;
+    height: 2995px;	
+}
+
+.rectangle {
+	position: absolute;
+    width: 1300px;
+    height: 2680px;
+	left: 50%;
+    top: 50%;
+    margin-left: -650px;
+    margin-top: -2830px;
+	background-color: #FFE4E1;
+}
+
+.goods {
+	float: right;
+	padding-right: 45px;
+	padding-top: 25px;
+}
+
+.goods  a {
+	text-decoration: underline;
+}
+
+.image {
+	position: absolute;														
+	width: 170px;
+	height: 235px; 
+	background-size: cover;
+	background-position: center center;
+	margin: 162px 33px;
+}
+
+.description {
+	margin: 100px 80px 0px 290px;
+	text-align: justify;
+}
+
+.description a {
+   text-decoration: underline;
+}
+
+.title a {
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.to_basket {
+	float: right;
+	padding-right: 45px;
+	padding-top: 10px;
+}
+
+.to_basket a {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.page {
+	font-family: "ConsolaMonoBook";
+	margin-top: 130px;
+	text-align: center;
+}
+
+.page li {
+	color: #1E90FF;		
+	font-size: 20px;
+	padding: 20px;
+	display: block;	
+}
+
+.page a {
+	text-decoration: underline;
+}
+
+.page a:hover {
+	color: #191970;
+	text-decoration: none;
+}
+
+.page  ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.page  ul li {
+	display: inline-block;
+}
+
+.tablica table {
+	width: 100%;	
+}	
+
+.tablica {
+	padding-top: 40px;	
+}
+
+.grn {
+	float: right;
+	padding-right: 75px;
+	padding-top: 20px;
+}
+
+.zakaz {
+	padding-top: 70px;
+	padding-left: 760px;
+}
+
+.back {
+	padding-top: 70px;
+	padding-left: 660px
+}
+
+.tablica  a {
+	text-decoration: underline;
+}
+
+.tablica  a:hover{
+	text-decoration: none;
+}
+
+.back  a {
+	text-decoration: underline;
+}
+
+.back  a:hover{
+	text-decoration: none;
+}
+
+.full_image1 img {
+	width: 1680px;
+    height: 720px;	
+}
+
+.rectangle1 {
+	font-family: "ConsolaMonoBook";
+	position: absolute;
+    width: 600px;
+    height: 600px;
+	left: 50%;
+    top: 50%;
+    margin-left: -315px;
+    margin-top: -655px;
+	background-color: #B0C4DE;
+}
+.cust {
+	padding-left: 70px;
+}
+
+.milo {
+	padding-left: 70px;
+}
+
+.tel {
+	padding-left: 70px;
+}
+
+.street {
+	padding-left: 70px;
+}
+
+.ord {
+	padding-top: 4px;
+}
+
+.take h3 {
+	padding-top: 120px;
+	font-size: 30px;
+	font-family: "SawRegular"
+}
+
+.cat {
+	padding-top: 50px;
+}
+.cat  a {	
+	font-family: "ConsolaMonoBook";
+	font-size: 26px;
+	text-decoration: underline;
+}
+
+.cat  a:hover{
+	text-decoration: none;
+}
+
+.go_in {
+	color: #0000CD;
+	font-family: "ConsolaMonoBook";
+}
+
+.all_sum {
+	padding-top: 20px;
+	padding-right: 50px
+}
+
+.full_image1 img {
+	width: 1680px;
+    height: 540px;	
+}
+
+.full_image1 span {
+	display:inline-block;
+    position:absolute;
+    top:370px;   
+    left:400px;
+     
+    color:#FFF;
+    font-family: "ConsolaMonoBook";
+    font-size:16px; 
+     
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+
+.full_image2 img {
+	width: 1663px;
+    height: 680px;	
+}
+
+.full_image2 span {
+	display:inline-block;
+    position:absolute;
+    top:415px;   
+    left:120px;
+     
+    color:#FFF;
+    font-family: "ConsolaMonoBook";
+    font-size:16px; 
+     
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+
+.full_image3 img {
+	width: 1680px;
+    height: 540px;	
+}
+
+.full_image3 span {
+	display:inline-block;
+    position:absolute;
+    top:470px;   
+    left:206px;
+     
+    color:#FFF;
+    font-family: "ConsolaMonoBook";
+    font-size:16px; 
+     
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+
+.full_image4 img {
+	width: 1680px;
+    height: 540px;	
+}
+
+.full_image4 span {
+	display:inline-block;
+    position:absolute;
+    top:370px;   
+    left:340px;
+     
+    color:#FFF;
+    font-family: "ConsolaMonoBook";
+    font-size:16px; 
+     
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+
+.image_art {
+	position: relative;
+    width: 800px;
+	height: 600px;
+    background-size: cover;
+    background-position: center center;
+    margin: 50px 420px; 
+	max-width: 100%;"
+}
+
+.description_art {
+	position: absolute;
+    background-color: #E6E6FA;;
+	
+}
+
+.description_art  span {
+	font-family: "ConsolaMonoBook";
+}
+
+.title_art{
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+	padding: 0px
+}
+
+.views{
+	float: right;
+	padding-right: 50px;
+	padding-top: 20px;
+}
+
+.years_art{
+	padding-left: 50px;
+	text-align: justify;
+}
+
+.actor_art{
+	padding-left: 50px;
+	text-align: justify;
+}
+
+.director_art{
+	padding-left: 50px;
+	text-align: justify;
+}
+
+.code1{
+	padding-left: 50px;
+	text-align: justify;
+}
+
+.text_art{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: justify;
+}
+
+.description_art  a {
+	font-family: "ConsolaMonoBook";
+}
+
+.bask1 {
+	font-size: 26px;
+	text-align: center;
+	padding-bottom: 30px;	
+}
+
+.bask1  a {
+	color: #00008B;
+	text-decoration: underline;
+}
+
+.price1 {
+	padding-left: 50px;
+	text-align: justify;
+}
+
+.bask1  a:hover{
+	text-decoration: none;
+}
+
+.block1 h3 {
+	margin-top: 30px;
+	margin-left: 712px;
+	font-family: "ConsolaMonoBook";
+	font-size: 20px;
+	color: #00008B;  
+}
+
+.form_group  textarea {
+    width: 900px; 
+    padding: 30px; 
+    margin: 30px 0px 0px 370px; 
+	border: 1px solid #000;	
+}
+
+.s_user1 {
+	margin-left: 340px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #00008B; 
+}
+
+.form_group2 {
+	margin: 30px 0px 20px 730px;
+}
+.form_group2 submit {
+	size: 26px;
+	color: #00008B;
+}
+
+.block  h3 {
+	margin-top: 34px;
+	margin-left: 755px;
+	font-family: "ConsolaMonoBook";
+	font-size: 24px;
+	color: #00008B;  
+}
+
+.articles_info {
+	font-family: "ConsolaMonoBook";
+	font-size: 16px;
+	color: #00008B;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.articles_preview  {	
+    background-color: #F0FFF0;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+}
+
+.articles_vertical {
+	margin-left: 550px;
+	font-family: "ConsolaMonoBook";
+	font-size: 20px;
+	color: red;  
+}
+
+.error_registr {
+	margin-left: 565px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-weight: bold;
+	color: red;
+}
+
+.articles_vertical {
+	margin-left: 575px;
+	margin-top: 20px;
+}
+
+.block a {
+	font-family: "ConsolaMonoBook";
+	font-size: 18px;
+	color: #00008B;  
+	margin-top: 15px;
+	margin-left: 1470px;
+}
+
+.articles_preview  p{	
+   	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+}
+
+.no_info {
+	font-family: "ConsolaMonoBook";
+	font-size: 22px;
+	color: red;  
+	margin-top: 15px;
+	margin-left: 733px;
+}
+
+.full_image_11 img {
+	width: 1677px;
+    height: 740px;	
+}

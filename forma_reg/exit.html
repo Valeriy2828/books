@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">    
+        <title>Books</title>
+        <link rel="stylesheet" href="my_styles1.css">
+		<link rel="stylesheet" href="../css/fonts.css" />
+		 <style>
+		   body {
+			background-image: url(../images/Book16.jpg);
+			background-size: 100%;
+		   }
+		   .my_button {
+				width: 140px;
+				height: 30px;
+			}			
+			.my_button1 {			
+				height: 25px;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="header_form">
+			<div class="reg">
+				<h2>Регистрация</h2>
+			</div>
+				<form action="save_user.php" method="post">
+				<div class="log_pass">
+					<div class="your_login">
+						<p>
+							<label>Ваш логин:<br></label>
+							<input name="login"  type="text" placeholder="Логин" size="20" maxlength="20" class="my_button1">
+						</p>
+					</div>
+					<div class="your_pass">
+						<p>
+							<label>Ваш пароль:<br></label>
+							<input name="password" type="password" placeholder="Пароль" size="20" maxlength="20" class="my_button1">
+						</p>
+					</div>
+					<div class="your_sub">
+						<p>
+							<input type="submit" name="submit" value="Зарегистрироваться" class="my_button">
+						</p>
+					</div>
+				</div>
+				</form>
+		</div>	
+	</body>
+</html>	
